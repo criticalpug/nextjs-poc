@@ -1,0 +1,1 @@
+export const printJSON = str => JSON.stringify(JSON.parse(str), null, 2)
