@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{B6ue:function(n,w){},GVI0:function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/admin",function(){return o("B6ue")}])}},[["GVI0",0]]]);
