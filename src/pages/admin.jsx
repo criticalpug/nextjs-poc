@@ -11,7 +11,8 @@ const Admin = () => {
     setQuestions(JSON.parse(_questions))
   }, [])
 
-  const handleSend = (receiver = 'mika.vaisanen@solita.fi', subject = 'questions') => {
+  const handleSend = (receiver, subject = 'questions') => {
+    if (!receiver) return null
     const body = JSON.stringify(questions, null, 2)
     window.open(`mailto:${receiver}?subject=${subject}&body=${body}`)
   }
